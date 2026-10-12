@@ -1,0 +1,14 @@
+openapi: 3.0.3
+info:
+  title: API Quản Lý Sinh Viên
+  version: 1.0.0
+  description: Tài liệu hệ thống quản lý sinh viên
+servers:
+  - url: http://localhost:5001
+paths:
+  /api/v1/sinh-vien:
+    get:
+      summary: Lấy danh sách sinh viên
+      responses:
+        '200':
+          description: Thành công trả về danh sách
